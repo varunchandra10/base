@@ -63,7 +63,7 @@
                     <td>Current Image: </td>
                     <td>
                         <?php 
-                            if($current_image = "")
+                            if($current_image != "")
                             {
                                 //Display the Image
                                 ?>
@@ -136,14 +136,9 @@
                     $image_name = $_FILES['image']['name'];
 
                     //Check whether the image is available or not
-                    if($image_name = "")
+                    if($image_name != "")
                     {
-                        //Image Available
-
-                        //A. UPload the New Image
-
-                        //Auto Rename our Image
-                        //Get the Extension of our image (jpg, png, gif, etc) e.g. "specialfood1.jpg"
+                        
                         $ext = end(explode('.', $image_name));
 
                         //Rename the Image
