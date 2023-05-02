@@ -138,7 +138,12 @@
                     //Check whether the image is available or not
                     if($image_name != "")
                     {
-                        
+                        //Image Available
+
+                        //A. UPload the New Image
+
+                        //Auto Rename our Image
+                        //Get the Extension of our image (jpg, png, gif, etc) e.g. "specialfood1.jpg"
                         $ext = end(explode('.', $image_name));
 
                         //Rename the Image
