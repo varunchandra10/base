@@ -41,12 +41,17 @@
 
                         $sn = 1; //Create a Serial Number and set its initail value as 1
 
+<<<<<<< HEAD
                         if($count>0)
                         {
+=======
+                       
+>>>>>>> bba5241507aab706477f85f7adad577dac8e9261
                             //Order Available
                             while($row=mysqli_fetch_assoc($res))
                             {
                                 //Get all the order details
+<<<<<<< HEAD
                                 $id = $row['id'];
                                 $food = $row['food'];
                                 $price = $row['price'];
@@ -58,6 +63,9 @@
                                 $customer_contact = $row['customer_contact'];
                                 $customer_email = $row['customer_email'];
                                 $customer_address = $row['customer_address'];
+=======
+                               
+>>>>>>> bba5241507aab706477f85f7adad577dac8e9261
                                 
                                 ?>
 
@@ -104,12 +112,17 @@
                                 <?php
 
                             }
+<<<<<<< HEAD
                         }
                         else
                         {
                             //Order not Available
                             echo "<tr><td colspan='12' class='error'>Orders not Available</td></tr>";
                         }
+=======
+                        
+                        
+>>>>>>> bba5241507aab706477f85f7adad577dac8e9261
                     ?>
 
  
